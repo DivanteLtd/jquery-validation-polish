@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery validation plugin</title>
+</head>
+<body>
+    <h1>Additional methods for jQuery validation plugin</h1>
+    <h2>Mainly for use in polish website</h2>
+
+    <h3>Example form</h3>
+    <form action="#" method="POST">
+        <div class="form-input">
+            <label>Address</label>
+            <input type="text" class="js-validation-address">
+        </div>
+        <div class="form-input">
+            <label>Alpha</label>
+            <input type="text" class="js-validation-alpha">
+        </div>
+        <div class="form-input">
+            <label>Alpha with pl</label>
+            <input type="text" class="js-validation-aplha-pl">
+        </div>
+        <div class="form-input">
+            <label>Alpha with pl and de</label>
+            <input type="text" class="js-validation-alpha-pl-de">
+        </div>
+        <div class="form-input">
+            <label>Building number</label>
+            <input type="text" class="js-validation-building-number">
+        </div>
+        <div class="form-input">
+            <label>City</label>
+            <input type="text" class="js-validation-city">
+        </div>
+        <div class="form-input">
+            <label>Date</label>
+            <input type="text" class="js-validation-date">
+        </div>
+        <div class="form-input">
+            <label>Date future</label>
+            <input type="text" class="js-validation-date-future">
+        </div>
+        <div class="form-input">
+            <label>Date min</label>
+            <input type="text" class="js-validation-date-min">
+        </div>
+        <div class="form-input">
+            <label>Date max</label>
+            <input type="text" class="js-validation-date-max">
+        </div>
+        <div class="form-input">
+            <label>Date not future</label>
+            <input type="text" class="js-validation-date-not-future">
+        </div>
+        <div class="form-input">
+            <label>Date not past</label>
+            <input type="text" class="js-validation-date-not-past">
+        </div>
+        <div class="form-input">
+            <label>Date past</label>
+            <input type="text" class="js-validation-date-past">
+        </div>
+        <div class="form-input">
+            <label>Digits</label>
+            <input type="text" class="js-validation-digits">
+        </div>
+        <div class="form-input">
+            <label>Email</label>
+            <input type="text" class="js-validation-email">
+        </div>
+        <div class="form-input">
+            <label>Firstname</label>
+            <input type="text" class="js-validation-firstname">
+        </div>
+        <div class="form-input">
+            <label>Firstnames</label>
+            <input type="tex" class="js-validation-firstnames">
+        </div>
+        <div class="form-input">
+            <label>Fullname</label>
+            <input type="text" class="js-validation-fullname">
+        </div>
+        <div class="form-input">
+            <label>Firstnames with lastname</label>
+            <input type="text" class="js-validation-firstnames-lastname">
+        </div>
+        <div class="form-input">
+            <label>House number</label>
+            <input type="text" class="js-validation-house-number">
+        </div>
+        <div class="form-input">
+            <label>KRS</label>
+            <input type="text" class="js-validation-krs">
+        </div>
+        <div class="form-input">
+            <label>Lastname</label>
+            <input type="text" class="js-validation-lastname">
+        </div>
+        <div class="form-input">
+            <label>Max checked</label>
+            <input type="checkbox" class="js-validation-max-checked">
+        </div>
+        <div class="form-input">
+            <label>Max length</label>
+            <input type="text" maxlength="20">
+        </div>
+        <div class="form-input">
+            <label>Max words</label>
+            <input type="text" class="js-validation-max-words">
+        </div>
+        <div class="form-input">
+            <label>Min checked</label>
+            <input type="text" class="js-validation-min-checked">
+        </div>
+        <div class="form-input">
+            <label>Min length</label>
+            <input type="text" minlength="20">
+        </div>
+        <div class="form-input">
+            <label>Min words</label>
+            <input type="text" class="js-validation-min-words">
+        </div>
+        <div class="form-input">
+            <label>NIP</label>
+            <input type="text" class="js-validation-nip">
+        </div>
+        <div class="form-input">
+            <label>Number between</label>
+            <input type="text" class="js-validation-number-between">
+        </div>
+        <div class="form-input">
+            <label>Number integer</label>
+            <input type="text" class="js-validation-number-integer">
+        </div>
+        <div class="form-input">
+            <label>Number max</label>
+            <input type="text" class="js-validation-number-max">
+        </div>
+        <div class="form-input">
+            <label>Number min</label>
+            <input type="text" class="js-validation-number-min">
+        </div>
+        <div class="form-input">
+            <label>Number not negative</label>
+            <input type="text" class="js-validation-number-not-negative">
+        </div>
+        <div class="form-input">
+            <label>Number positive</label>
+            <input type="text" class="js-validation-number-positive">
+        </div>
+        <div class="form-input">
+            <label>Number</label>
+            <input type="text" class="js-validation-number">
+        </div>
+        <div class="form-input">
+            <label>PESEL</label>
+            <input type="text" class="js-validation-pesel">
+        </div>
+        <div class="form-input">
+            <label>Phone</label>
+            <input type="text" class="js-validation-phone">
+        </div>
+        <div class="form-input">
+            <label>Postal code</label>
+            <input type="text" class="js-validation-postal">
+        </div>
+        <div class="form-input">
+            <label>Range checked</label>
+            <input type="text" class="js-validation-range-checked">
+        </div>
+        <div class="form-input">
+            <label>Range length</label>
+            <input type="text" class="js-validation-range-length">
+        </div>
+        <div class="form-input">
+            <label>Range words</label>
+            <input type="text" class="js-validation-range-words">
+        </div>
+        <div class="form-input">
+            <label>REGON</label>
+            <input type="text" class="js-validation-regon">
+        </div>
+        <div class="form-input">
+            <label>Email</label>
+            <input type="text" class="js-validation-repeat-email">
+        </div>
+        <div class="form-input">
+            <label>Repeat email</label>
+            <input type="text" class="js-validation-repeat-email">
+        </div>
+        <div class="form-input">
+            <label>Repeat field</label>
+            <input type="text" class="js-validation-repeat-field">
+        </div>
+        <div class="form-input">
+            <label>Require from group</label>
+            <input type="text" class="js-validation-require-from-group">
+        </div>
+        <div class="form-input">
+            <label>Required</label>
+            <input type="text" required>
+        </div>
+        <div class="form-input">
+            <label>Street</label>
+            <input type="text" class="js-validation-street">
+        </div>
+        <div class="form-input">
+            <label>URL</label>
+            <input type="text" class="js-validation-url">
+        </div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js" defer></script>
+    <script src="../dist/jquery.validation.polish.js" defer></script>
+    <script src="../demo/script.js" defer></script>
+</body>
+</html>

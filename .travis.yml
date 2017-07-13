@@ -1,0 +1,36 @@
+language: node_js
+cache:
+  yarn: true
+  directories:
+    - node_modules
+notifications:
+  email: false
+env:
+  global:
+    - BABEL_ENV=test
+  matrix:
+    - PKG_CMD="npm"
+    - PKG_CMD="yarn"
+node_js:
+  - '8'
+  - '7'
+  - '6'
+  - '4'
+matrix:
+  fast_finish: true
+before_install:
+  - npm install -g npm@5
+  - nvm use $TRAVIS_NODE_VERSION
+  - npm set loglevel error
+  - npm set progress false
+  - 'if [ $PKG_CMD = "yarn" ]; then curl -o- -L https://yarnpkg.com/install.sh | bash && PATH=$HOME/.yarn/bin:$PATH ; fi'
+install:
+  - $PKG_CMD install
+script:
+  - $PKG_CMD run build
+  - $PKG_CMD run test
+after_success:
+  - npm run semantic-release
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
