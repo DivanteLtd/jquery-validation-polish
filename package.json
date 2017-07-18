@@ -2,7 +2,7 @@
   "name": "@divantespzoo/jquery-validation-polish",
   "version": "0.0.0-development",
   "description": "Additional polish methods for jquery validation plugin",
-  "main": "index.js",
+  "main": "dist/jquery.validation.polish.js",
   "repository": "git@github.com:DivanteLtd/jquery-validation-polish.git",
   "author": "Marcin Lasak <lasakmarcin90@gmail.com>",
   "license": "MIT",
