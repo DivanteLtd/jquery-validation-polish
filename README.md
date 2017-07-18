@@ -12,6 +12,13 @@ Demo files showing plugin usage and all methods is available in `demo` directory
 
 ## Available methods
 
+<details>
+    <summary>Address</summary>
+    <p>Allows for letters (including polish and german diacritics), digits, white space and special characters: \/,.-"</p>
+    <p>Class: `js-validation-address`</p>
+    <p>Default message: `Wprowadź poprawnie adres.`</p>
+</details>
+
 @todo
 
 ## Overriding messages
