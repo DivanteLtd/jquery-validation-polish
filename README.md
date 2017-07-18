@@ -15,8 +15,15 @@ Demo files showing plugin usage and all methods is available in `demo` directory
 <details>
     <summary>Address</summary>
     <p>Allows for letters (including polish and german diacritics), digits, white space and special characters: \/,.-"</p>
-    <p>Class: `js-validation-address`</p>
-    <p>Default message: `Wprowadź poprawnie adres.`</p>
+    <p><b>Class</b>: `js-validation-address`</p>
+    <p><b>Default message</b>: `Wprowadź poprawnie adres.`</p>
+</details>
+
+<details>
+    <summary>Alpha characters with polish and german diacritics</summary>
+    <p>Allow only letters (including polish and german diacritics)</p>
+    <p><b>Class</b>: `js-validation-alpha-pl-de`</p>
+    <p>Default message</b>: `Dozwolone są tylko litery.`</p>
 </details>
 
 @todo
