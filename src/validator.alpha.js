@@ -7,7 +7,7 @@ jQuery.validator.addMethod(
     const re = /^[a-zA-Z]+$/;
     return this.optional(element) || re.test(value);
   },
-  "Dozwolone są tylko litery od a do z bez polskich znakow."
+  "Dozwolone są tylko litery od a do z bez polskich znaków."
 );
 
 /* Alpha validator */
