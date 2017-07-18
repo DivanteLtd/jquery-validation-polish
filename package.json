@@ -9,12 +9,16 @@
   "scripts": {
     "build": "yarn run prettier && webpack && generate-export-aliases",
     "prettier": "prettier --trailing-comma es5 --write src/**/*.js",
+<<<<<<< HEAD
     "test": "jest",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "private": false,
   "publishConfig": {
     "access": "public"
+=======
+    "test": "jest"
+>>>>>>> master
   },
   "config": {
     "exportAliases": {
