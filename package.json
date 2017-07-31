@@ -29,6 +29,7 @@
       "validatorDateMin": "./src/validator,date-min.js",
       "validatorDateNotFuture": "./src/validator.date-not-future.js",
       "validatorDateNotPast": "./src/validator.date-not-past.js",
+      "validatorDatePast": "./src/validator.date-past.js",
       "validatorDate": "./src/validator.date.js",
       "validatorDigits": "./src/validator.digits.js",
       "validatorEmail": "./src/validator.email.js",
