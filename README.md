@@ -9,6 +9,7 @@ Demo files showing basic plugin usage and some of methods is shown in `demo` dir
 ## Usage
 
 You can use additional methods provided by this plugin in few ways.
+If you use date validators please include [date.js libarary](http://www.datejs.com/). They rely on date functions provided by this lib.
 
 ### Method 1 - for prototyping, not recommended for production
 Use unpkg CDN. Latest version library is available under this link:
