@@ -439,3 +439,12 @@ Below in each method description import path will be specified.
     <p><b>Default message</b>: `Wprowadź poprawny link.`</p>
     <p><b>Import file</b>: `validatorURL`</p>
 </details>
+
+## About Authors
+
+
+![Divante-logo](http://divante.co///logo_1.png "Divante")
+
+We are a Software House from Europe, headquartered in Poland and employing about 150 people. Our core competencies are built around Magento, Pimcore and bespoke software projects (we love Symfony3, Node.js, Angular, React, Vue.js). We specialize in sophisticated integration projects trying to connect hardcore IT with good product design and UX.
+
+Visit our website [Divante.co](https://divante.co/ "Divante.co") for more information.
