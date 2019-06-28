@@ -12,7 +12,7 @@ env:
     - PKG_CMD="npm"
     - PKG_CMD="yarn"
 node_js:
-  - '4'
+  - '6'
 matrix:
   fast_finish: true
 before_install:
