@@ -26,6 +26,7 @@ script:
   - $PKG_CMD run build
   - $PKG_CMD run test
 after_success:
+  - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
   - npm run release
 branches:
   except:
