@@ -11,7 +11,7 @@ env:
   matrix:
     - PKG_CMD="npm"
 node_js:
-  - '6'
+  - '8'
 matrix:
   fast_finish: true
 before_install:
