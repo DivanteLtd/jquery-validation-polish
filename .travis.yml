@@ -10,7 +10,6 @@ env:
     - BABEL_ENV=test
   matrix:
     - PKG_CMD="npm"
-    - PKG_CMD="yarn"
 node_js:
   - '6'
 matrix:
