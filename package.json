@@ -1,6 +1,6 @@
 {
   "name": "@divantespzoo/jquery-validation-polish",
-  "version": "0.0.0-development",
+  "version": "1.2.1",
   "description": "Additional polish methods for jquery validation plugin",
   "main": "dist/jquery.validation.polish.js",
   "repository": "git@github.com:DivanteLtd/jquery-validation-polish.git",
@@ -10,7 +10,7 @@
     "build": "yarn run prettier && webpack && generate-export-aliases",
     "prettier": "prettier --trailing-comma es5 --write src/**/*.js",
     "test": "jest --passWithNoTests",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "release": "release-it"
   },
   "private": false,
   "publishConfig": {
@@ -84,7 +84,6 @@
     "generate-export-aliases": "^1.0.0",
     "jest": "^24.8.0",
     "prettier": "^1.5.2",
-    "semantic-release": "^6.3.6",
     "uglifyjs-webpack-plugin": "^0.4.6",
     "webpack": "^3.2.0"
   }
