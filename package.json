@@ -84,6 +84,7 @@
     "generate-export-aliases": "^1.0.0",
     "jest": "^24.8.0",
     "prettier": "^1.5.2",
+    "release-it": "^12.3.0",
     "uglifyjs-webpack-plugin": "^0.4.6",
     "webpack": "^3.2.0"
   }
